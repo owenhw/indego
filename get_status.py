@@ -18,8 +18,8 @@ df = df.loc[:, ['id', 'docksAvailable',
        'electricBikesAvailable', 'kioskPublicStatus']]
 
 # add a timestamp
-df['timestamp'] = dt.now()
-df['timestamp'] = df['timestamp'].astype('datetime64')
+df['time'] = dt.now()
+df['time'] = df['timestamp'].astype('datetime64')
        
 
 # import the station data into civis
