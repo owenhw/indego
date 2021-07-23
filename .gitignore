@@ -1,5 +1,0 @@
-# files git will ignore
-.DS_Store
-indego/__pycache__
-scraping/__pycache__
-.env
