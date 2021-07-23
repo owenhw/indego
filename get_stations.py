@@ -1,6 +1,6 @@
 # imports
 import civis
-import from indego import Indego
+from indego import Indego
 import pandas as pd
 
 # initialize an indego object
