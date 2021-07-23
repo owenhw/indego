@@ -18,6 +18,6 @@ df = df.loc[:, ['id', 'name', 'totalDocks', 'kioskType', 'addressStreet', 'addre
        
 
 # import the station data into civis
-io.dataframe_to_civis(df2, database = 'redshift-general'
+civis.io.dataframe_to_civis(df2, database = 'redshift-general'
                       , table='oharringtonwoodard.indego_stations'
                       , existing_table_rows='drop')
