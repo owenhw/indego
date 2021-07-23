@@ -19,7 +19,7 @@ df = df.loc[:, ['id', 'docksAvailable',
 
 # add a timestamp
 df['timestamp'] = dt.now()
-df['timestamp'] = df['timestamp'].astype9=('datetime64')
+df['timestamp'] = df['timestamp'].astype('datetime64')
        
 
 # import the station data into civis
