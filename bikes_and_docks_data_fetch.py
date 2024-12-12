@@ -36,7 +36,9 @@ def fetch_data(timestamp=None) -> list:
         ]
     
     for station in list_of_station_dicts:
-        station['bikes'] = json.dumps({"bikes": [bike for bike in station['bikes']]})
+        station['bikes'] = json.dumps(
+            {"bikes": [bike for bike in station['bikes']]}
+            )
 
         station['timestamp'] = timestamp
 
